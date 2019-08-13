@@ -9,7 +9,7 @@ import Launch from './components/Launch';
 
 
 const client = new AplloClient({
-  uri: 'http://localhost:5000/graphql'
+  uri: '/graphql'
 });
 
 const App = () => (
